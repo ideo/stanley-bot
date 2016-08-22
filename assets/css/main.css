@@ -1,0 +1,305 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+}
+
+
+
+/*** FOUNDATION ***/
+
+html, body {
+  width:100%; 
+  color:black;  
+  margin:0;
+  padding:0;
+}
+
+html, body, select, textarea, button, input, span, p {
+  font-weight: 300;
+  font-size: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+input, select, textarea {
+  -webkit-appearance: none
+}
+
+.wrapper { 
+  display:table;  
+  min-height:100%;
+  height:auto;
+/*  padding-top: 104px;*/
+  width:100%;
+}
+
+.altwrapper {
+  background-color:#eee;
+  padding:5% 0;
+}
+
+section {
+  max-width:100%;
+}
+
+ul, li, ol {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+a {
+  text-decoration:none;
+  color:black;
+  cursor: pointer;
+}
+
+
+/*** SHORTCUTS ***/
+.bold {font-weight:700;}
+.ltgrey {color:rgba(0,0,0,0.2);}
+.small {font-size:0.875em; /*14px*/}
+.left {float:left;}
+.right {float:right;}
+.clear{clear:both; height:1px;}
+
+
+
+/*** HEADER ***/
+.header {
+  background:#16528E;
+  color:white;
+  padding:25px 5%;
+/*  position:fixed;*/
+  letter-spacing:0.2em;
+  text-transform: uppercase;
+  text-align:center;
+  width:100%; 
+  height: auto;
+}
+
+.header a{
+  color: #fff;
+}
+
+div.headerElements:before, div.headerElements:after {
+  content: "";
+  display:inline-block;
+  height:100%;
+  vertical-align:middle;
+}
+
+/*** FILTERS ***/
+
+
+.filterBox {
+  background:rgba(255,104,97,1);
+  padding:15px 5%;
+  text-align:center;
+  width:100%; 
+}
+
+.filterBox ul {
+  color:rgba(255,255,255,1);  
+  margin-bottom:10px;
+  }
+
+.filterBox li, .addfilter li {
+  display:inline-block;
+  margin:0 10px;
+  font-weight:600;
+  letter-spacing:0.2em;
+  text-transform:uppercase;
+}
+
+.filterBox li a {
+  color:white;
+}
+
+.filterBox li a:hover, .filterBox li .active {
+  color:black;
+}
+
+.filterBox a:hover, .filterBox li a:hover, .filterBox li .active, .unread:hover {
+  text-decoration:underline;
+}
+
+.unread {
+  margin-top: 10px;
+}
+
+.addfilter {
+  background-color:#f2f2f2;
+  margin:auto;
+  padding:25px 5%;
+  width:100%;
+}
+
+.addfilter ul  {
+  color:rgba(0,0,0,0.2);
+}
+
+.tags {
+  width:250px;
+}
+
+/*** MAIN ***/
+
+.main {
+  width:100%;
+}
+
+.newConvoBox {
+  padding:15px 5% 0 5%;
+  text-align:center;
+  width:100%;   
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.newConvo {
+  padding: 10px;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius:5px;
+  -webkit-border-radius:5px;  
+}
+
+.conversation {
+  border-bottom:1px solid rgba(0,0,0,0.1);
+  height:auto;
+  padding:10px 5%;
+  cursor: pointer;
+}
+
+.conversation:hover {
+  background-color:#f2f2f2;
+}
+
+.conversationImage {
+  width: 50%;
+}
+
+.sms {
+  background-color:white;
+  border:2px solid rgba(0,0,0,0.1);
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  height:auto;
+  margin:0 auto 20px auto;
+  padding:10px 5%;
+  width:90%;
+}
+
+.response {
+  background-color:#B3EBFF;
+  border:2px solid #78C5E1;
+}
+
+.text {
+  font-size:1.875em; /*30px*/
+}
+
+.respond {
+  background:white;
+  border-top:1px solid rgba(0,0,0,0.1);
+  height:auto;
+  width:100%;  
+  padding: 2% 5% 2% 5%;
+}
+
+.confirm-response{
+  border-bottom: 1px dotted #999;
+  margin: 0 0 80px 0;
+}
+
+select {
+  background:white;
+  border:2px solid rgba(0,0,0,0.1);
+  padding: 0 15px;
+  width:100%;
+  height:40px;
+}
+
+textarea {
+  border:2px solid rgba(0,0,0,0.1);
+  width:100%;
+  height:100px;
+  padding:10px 15px;
+  resize:none;
+}
+
+button, .newConvoBtn {
+  background:#78C5E1;
+  color: white;
+  border:none;
+  cursor:pointer;
+  padding:12px 30px;
+  margin:20px 0;  
+  letter-spacing:0.2em;
+  text-transform:uppercase;
+  border-radius:5px;
+  -webkit-border-radius:5px;
+}
+
+button:hover {
+  background-color:#58A5C0;
+}
+
+.error{
+  background-color:rgba(255,0,0,0.6);
+  color: #fff;
+}
+
+/*********** Etc ***********/
+
+.btnBorder {
+  font-size:0.8em;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 5px 10px;
+  opacity:.5;
+}
+
+.btnBorder:hover {
+  opacity:1;
+}
+
+#delete-confirm{
+  display: none;
+  clear: both;
+  margin: 20px 0 0 0;
+}
+
+.cnfrm{
+  text-decoration: underline;
+}
+
+
+/*** MEDIA QUERIES ***/
+
+@media only screen and (max-device-width:320px) {
+  button {
+    width:100%;
+  }
+  .text {
+    font-size:1em; /*30px*/
+  }
+
+  textarea {
+    height:150px;
+  } 
+
+  .conversationImage {
+    width:100%;
+  }
+
+  .addfilter {
+    padding-bottom:50px;
+  }
+
+  .tags {
+    width:100%;
+  }
+
+}

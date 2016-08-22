@@ -1,0 +1,7 @@
+{
+    "name": "Project Buoyant",
+    "description": "SMS App for Project Buoyant",
+    "require": {
+        "php": ">=5.3.0"
+     }
+}
