@@ -4,6 +4,7 @@ Stanley is a custom SMS messaging platform to prototype early services, products
 For more context, read this article: 
 [TITLE ARTICLE](http://ARTICLE LINK)
 
+![alt tag](https://yt3.ggpht.com/-oSAbz46-1qw/AAAAAAAAAAI/AAAAAAAAAAA/UzFF1NAQRSo/s900-c-k-no-mo-rj-c0xffffff/photo.jpg)
 
 ##Step 1
 Get this code. For an overview on how the repo is organized:
