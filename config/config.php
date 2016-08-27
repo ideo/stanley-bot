@@ -10,8 +10,8 @@
 date_default_timezone_set('America/New_York');
 
 // General
-$projectName="YOUR PROJECT NAME";
-$projectEmail="YOUR EMAIL ADDRESS";
+$projectName="STANLEY";
+$projectEmail="stanley@ideo.com";
 $projectPhoneNumber="YOUR PHONE NUMBER";
 
 
@@ -25,8 +25,8 @@ $siteURL="YOUR SITE URL";
 // Slack Webhook integration
 $slackWebHookURL="YOUR SLACK PRIVATE CHANNEL WEB HOOK";
 $slackRoom = "THE NAME OF YOUR SLACK ROOM";
-$slackBotName = "THE NAME OF YOUR BOT";
-$slackBotIcon = "THE PROFILE IMAGE OF YOUR BOT"; // example :money_mouth_face: or :shit:
+$slackBotName = "Stanley"; //THE NAME OF YOUR BOT
+$slackBotIcon = ":robot_face:"; // THE PROFILE IMAGE OF YOUR BOT example :money_mouth_face: or :shit:
 
 
 // Database Stuff
