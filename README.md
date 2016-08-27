@@ -1,10 +1,9 @@
 # Stanley-Bot
-Stanley is a custom SMS messaging platform to prototype early services, products, and content
+Stanley is a custom SMS messaging platform to prototype early services, products, and content.
+
 For more context, read this article: 
 [TITLE ARTICLE](http://ARTICLE LINK)
 
-
-#Setup
 
 ##Step 1
 Get this code. For an overview on how the repo is organized:
