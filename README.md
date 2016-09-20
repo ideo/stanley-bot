@@ -1,7 +1,7 @@
 # Stanley-Bot
 Stanley is a custom SMS messaging platform to prototype early services, products, and content.
 For more about this, read the article: 
-[TITLE ARTICLE](http://ARTICLE LINK)
+[Chatbots: Your Ultimate Prototyping Tool](https://medium.com/ideo-stories/chatbots-your-ultimate-prototyping-tool-e5414485061f)
 
 ![bots](https://cdn-images-1.medium.com/max/2000/1*B95neDsqeB7pJ9XXGhsRNg.jpeg)
 
