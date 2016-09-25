@@ -26,16 +26,16 @@ In the Heroku dashboard under “Resources”, install the add-on ClearDB. To ma
 In the Heroku Dashboard under “Deploy”, link you Github repository to your Heroku app. Set it up as “automatic deploys” - so any time you commit new code to Github you are automatically live with the changes.
 
 ##Step 6
-In the Heroku Dashboard under “Resources”, click on ClearDB and retrieve the information regarding your database: host, user name, password, database name. Use these credentials in your Sequel Pro. Once you are connected install your database launching this script http://YOUR_ HEROKU_INSTANCE/config/installDB.php. Once the database is installed, you can delete installDB.php from your repo. In order to install the script, you'll need to have the PHP server running.
+In the Heroku Dashboard under “Resources”, click on ClearDB and retrieve the information regarding your database: host, user name, password, database name. Use these credentials in your Sequel Pro. Once you are connected install your database launching this script http://YOUR_ HEROKU_INSTANCE/config/installDB.php. Once the database is installed, you can delete installDB.php from your repo. 
 
 ##Step 7
-Now, create a private slack channel for you and your team. Invite to the channel everyone that should be involved in the conversations. 
+Now, create a private slack channel for you and your team. Invite to the channel everyone that should be involved in the conversations. When the private slack channel is ready, set up an [incoming webhook](https://api.slack.com/incoming-webhooks).
 
 ##Step 8
-Open config.php file in your code, and edit the variables with all the details regarding your app (list here).
+Open config.php file in your code, and edit the variables with all the details regarding your app. At this point you'll need to have the information for Twilio (account SID, token, phone number), for Slack (web hook URL, name of the private channel, name of your bot, profile image of your bot), for the database (host, name, username, password, table name).
 
 ##Step 9
-Edit Twilio programmable SMS and change the URL (action/response.php)
+In your Twilio account dashboard, go to [programmable SMS](https://www.twilio.com/console/sms/dashboard), and create a new Messaging Service, and edit the REQUEST URL and FALLBACK URL values with http://YOUR_ HEROKU_INSTANCE/action/response.php.
 
 ##Step 10
-Commit your code to github and you are good to go.
+Commit your code to github, and Hello World, Bot.
