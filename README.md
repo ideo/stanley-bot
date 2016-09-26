@@ -26,6 +26,7 @@ In the Heroku dashboard under “Resources”, install the add-on ClearDB. To ma
 In the Heroku Dashboard under “Deploy”, link you Github repository to your Heroku app. Set it up as “automatic deploys” - so any time you commit new code to Github you are automatically live with the changes.
 
 ##Step 6
+Commit your code to git, and make sure it's available in your heroku instance. 
 In the Heroku Dashboard under “Resources”, click on ClearDB and retrieve the information regarding your database: host, user name, password, database name. Use these credentials in your Sequel Pro. Once you are connected install your database launching this script http://YOUR_ HEROKU_INSTANCE/config/installDB.php. Once the database is installed, you can delete installDB.php from your repo. 
 
 ##Step 7
